@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Amit Kushwaha | Containerized Django Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root {
+      --bg: #f7f7fb;
+      --card: #ffffff;
+      --ink: #101418;
+      --muted: #5b6570;
+      --accent: #1b6ef3;
+      --border: #e4e8ee;
+      --accent-2: #ff8a3d;
+      --accent-3: #7b5cff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(circle at 10% 10%, #fff4e9 0%, transparent 45%),
+        radial-gradient(circle at 90% 0%, #eef0ff 0%, transparent 40%),
+        var(--bg);
+      color: var(--ink);
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      background: linear-gradient(120deg, #eef4ff, #ffffff 40%, #fff1e6 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 64px 20px 56px;
+      text-align: center;
+    }
+
+    .hero__title {
+      margin: 0 0 10px;
+      font-size: 36px;
+      letter-spacing: -0.5px;
+    }
+
+    .hero__title span {
+      background: linear-gradient(120deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .hero__subtitle {
+      margin: 0 auto 18px;
+      color: var(--muted);
+      max-width: 520px;
+      line-height: 1.6;
+    }
+
+    .hero__meta {
+      font-size: 13px;
+      color: var(--accent-3);
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    footer {
+      padding: 18px 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1 class="hero__title">Containerizing a Django App</h1>
+      <p class="hero__subtitle">A simple project demo focused on Dockerizing Django with clean, repeatable deployment workflows.</p>
+      <p class="hero__meta">Built with Django + Docker</p>
+    </div>
+  </header>
+
+  <footer>
+    <p>© 2026 Amit Kushwaha</p>
+  </footer>
+
+</body>
+</html>
